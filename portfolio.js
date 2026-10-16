@@ -1,0 +1,1 @@
+const rows=['00011000','00111100','01111110','11011011','11111111','00100100','01000010','10000001'];const sprite=document.querySelector('#sprite');rows.forEach(row=>[...row].forEach(bit=>{const cell=document.createElement('span');cell.style.background=bit==='1'?'#46583f':'#f4f2ec';sprite.append(cell)}));
